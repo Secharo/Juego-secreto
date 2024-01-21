@@ -1,7 +1,7 @@
 let numeroSecreto = 0;
 let intentos = 0;
 let numerosSorteados = [];
-let numeroMaximo = 5;
+let numeroMaximo = 10;
 
     function verificarIntento() {
         let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
